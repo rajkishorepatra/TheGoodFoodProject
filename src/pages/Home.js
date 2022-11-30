@@ -1,16 +1,22 @@
 import React from "react";
-import AboutUs from "../components/home/AboutUs";
+import Theory from "../components/home/Theory";
 import Hero from "../components/home/Hero";
+import BookTable from "../components/home/BookTable";
+import MapFooter from "../components/home/MapFooter";
+import Media from "../components/home/Media";
+import AboutUs from "../components/home/AboutUs";
 import Menu from "../components/home/Menu";
-import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <Hero />
       <AboutUs />
+      <Theory />
+      <Media />
+      <BookTable />
       <Menu />
+      <MapFooter />
     </>
   );
 };
