@@ -1,0 +1,53 @@
+.theory {
+    margin-top: 2em;
+}
+
+.theory h1 {
+    color: #e55137;
+    margin: auto;
+    font-size: 6vw;
+    font-weight: 645;
+}
+
+.theory-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* margin: auto; */
+}
+
+.theory-content h2 {
+    margin: auto;
+    margin-left: 1em;
+    font-size: 1.4vw;
+    color: #fff;
+    font-weight: 500;
+}
+
+.theory-content img {
+    margin: auto;
+    width: 80%;
+}
+
+@media screen and (max-width: 800px){
+    .theory-content h2 {
+        margin-top: 1em;
+        font-size: 1.8vw;
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .theory-content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* .theory-content img{
+        flex: 1;
+    } */
+    .theory-content h2 {
+        margin-top: -3em;
+        margin-right: 1em;
+        margin-bottom: 2em;
+    }
+}

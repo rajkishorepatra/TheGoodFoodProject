@@ -1,0 +1,47 @@
+.map-margin{
+    border-bottom-style: solid;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.mapFooter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.mapFooter .embedMap,.map-content{
+    flex: 1 0 45%;
+    margin: 1rem;
+}
+
+
+.map-content{
+    margin: auto;
+    text-align: left;
+    margin-right: 1em;
+    color: #fff;
+}
+
+.map-loc{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+@media screen and (max-width: 996px){
+    .map-content{
+        margin: 1em;
+    }
+}
+
+
+@media screen and (max-width: 548px){
+    .embedMap iframe{
+        width: 80vw;
+        height: 50vw;
+    }
+}

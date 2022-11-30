@@ -1,12 +1,18 @@
 import React from "react";
-import AboutUs from "../components/home/AboutUs";
+import Theory from "../components/home/Theory";
 import Hero from "../components/home/hero";
+import BookTable from "../components/home/BookTable";
+import MapFooter from "../components/home/MapFooter";
+import Media from "../components/home/Media";
 
 const Home = () => {
   return ( 
   <>
       <Hero/>
-      <AboutUs/>
+      <Theory/>
+      <Media/>
+      <BookTable/>
+      <MapFooter/>
   </>)
 };
 

@@ -1,0 +1,84 @@
+
+.tableImage{
+    position: relative;
+    height: 25vw;
+}
+
+
+
+.content1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* line-height: -10% important; */
+    color: #fff;
+    font-size: 2vw;
+}
+
+
+.input-fields {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+.input-fields input{
+    height: calc(1.5em + 1.6rem + 2px);
+    /* font-size: 1rem; */
+    flex: 1 0 19.8%;
+    margin: 0.9rem;
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.input-fields input:hover{
+    border-color: #e55137;
+}
+
+.input-fields .form-control{
+    width: 100%;
+}
+
+
+/* @media screen and (max-width: 1700px){
+    .tableImage{
+        height: 50vh;
+    }
+} */
+
+
+/* @media screen and (max-width: 1100px){
+    .tableImage{
+        height: 25vw;
+    }
+} */
+
+@media screen and (max-width: 800px){
+    .input-fields input{
+        flex: 1 0 30%;
+    }
+    .tableImage{
+        height: 55vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .input-fields input{
+        flex: 1 0 50%;
+    }
+    .tableImage{
+        height: 115vw;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .tableImage{
+        height: 150vw;
+    }
+}
