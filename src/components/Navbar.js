@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="sticky top-0 left-0 right-0 z-20 shadow-lg bg-[#343a40]">
       <div className="px-4 z-10 bg-transparent">
         <div className="flex justify-between items-center">
-          <div className=" hidden md:flex justify-start items-center space-x-8">
+          <div className=" hidden md:flex justify-start items-center space-x-8 flex-1">
             <Link
               to="/"
               className="text-white font-semibold hover:text-[#e55137] "
@@ -34,7 +34,7 @@ const Navbar = () => {
           <div className="flex md:hidden text-2xl text-white">
             <HiMenuAlt3 />
           </div>
-          <div className="hidden md:flex justify-end items-center space-x-8">
+          <div className="hidden md:flex justify-end items-center space-x-8 flex-1">
             <Link
               to="/"
               className="text-white font-semibold hover:text-[#e55137] "
