@@ -2,12 +2,12 @@
     margin-top: 2em;
 }
 
-.theory h1 {
+/* .theory h1 {
     color: #e55137;
     margin: auto;
     font-size: 6vw;
     font-weight: 645;
-}
+} */
 
 .theory-content {
     display: grid;

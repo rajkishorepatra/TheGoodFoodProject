@@ -1,18 +1,19 @@
-import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/effect-coverflow"
+import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { Autoplay, EffectCoverflow, Pagination } from "swiper";
 // import "swiper/css/bundle";
-import '../../css/home/media.css'
+import "../../css/home/media.css";
 
 function Media() {
   return (
     <>
-      <div className='media'>
-        <h1 className='media-h1'>Our Gallery</h1>
-
+      <div className="media">
+        <h1 className="text-3xl lg:text-4xl font-bold my-8 uppercase text-white">
+          <span className="text-[#e55137]">O</span>ur Gallery
+        </h1>
 
         <Swiper
           effect={"coverflow"}
@@ -65,7 +66,7 @@ function Media() {
         </Swiper>
       </div>
     </>
-  )
+  );
 }
 
-export default Media
+export default Media;

@@ -15,19 +15,19 @@ const Menu = () => {
       <h1 className="text-3xl lg:text-4xl font-bold my-8 uppercase">
         <span className="text-[#e55137]">M</span>enu
       </h1>
-      <div className="grid grid-cols-2 md:grid-cols-6">
+      <div className="grid grid-cols-2 md:grid-cols-6 cursor-pointer">
         {imgSrc.map((itemSrc) => (
-          <div key={itemSrc}>
+          <div key={itemSrc} className="overflow-hidden hover:brightness-50">
             <img
               src={itemSrc}
               alt="about-tgf"
-              className="object-cover w-full h-full"
+              className="object-cover w-full h-full hover:scale-110 transition duration-300 ease-in-out"
             />
           </div>
         ))}
       </div>
-      <button className="my-8 md:my-12 border-2 px-4 py-2 hover:border-[#e55137] hover:text-[#e55137]">
-        SEE MORE
+      <button className="border border-gray-400 glow-on-hover ">
+        SEE MORE {">"}
       </button>
     </div>
   );
