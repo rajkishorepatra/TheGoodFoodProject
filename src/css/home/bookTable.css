@@ -53,11 +53,17 @@
 } */
 
 
-/* @media screen and (max-width: 1100px){
+@media screen and (max-width: 1100px){
     .tableImage{
-        height: 25vw;
+        height: 28vw;
     }
-} */
+}
+
+@media screen and (max-width: 930px){
+    .tableImage{
+        height: 32vw;
+    }
+}
 
 @media screen and (max-width: 800px){
     .input-fields input{
@@ -65,6 +71,12 @@
     }
     .tableImage{
         height: 55vw;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .tableImage{
+        height: 65vw;
     }
 }
 

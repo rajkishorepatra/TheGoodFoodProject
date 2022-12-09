@@ -7,6 +7,7 @@ import Media from "../components/home/Media";
 import AboutUs from "../components/home/AboutUs";
 import Menu from "../components/home/Menu";
 import Footer from "../components/Footer";
+import MyCarousel from "../components/home/Review"
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Menu />
       <Theory />
       <BookTable />
+      <MyCarousel />
       <MapFooter />
       <Footer />
     </>

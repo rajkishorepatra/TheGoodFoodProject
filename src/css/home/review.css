@@ -1,0 +1,16 @@
+@media screen and (max-width: 500px){
+    .reviewText{
+        margin-bottom: -2em;
+    }
+    .reviewFont{
+        font-size: 2.5vw;
+    }
+}
+
+.testimonial img{
+    border-radius: 50%;
+    width: 10vw;
+    /* display: flex; */
+    /* vertical-align: middle; */
+    margin: auto;
+}
