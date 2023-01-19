@@ -38,7 +38,7 @@ class MyCarousel extends Component {
           <ReactCardCarousel
             spread={"wide"}
             autoplay={true}
-            autoplay_speed={3000}
+            autoplay_speed={8000}
           >
             <div style={MyCarousel.CARD_STYLE}>
               <div className="testimonial">
